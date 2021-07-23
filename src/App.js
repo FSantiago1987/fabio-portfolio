@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
             <Switch>
-              <Route path="/" exact component={WelcomePage} />
+              <Route path="/fabio-portfolio" exact component={WelcomePage} />
               <div className="contentPage">
                 <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
                   <NavBar />
