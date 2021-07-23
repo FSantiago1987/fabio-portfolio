@@ -1,0 +1,310 @@
+.WelcomePage {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: #18191f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image-texture {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: 280px;
+    width: 240px;
+    margin-top: -300px;
+    position: absolute;
+
+    .picture {
+      transition: 0.6s ease-in-out;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+    }
+
+    .texture {
+      width: 100%;
+      height: 100%;
+      mix-blend-mode: multiply;
+      filter: contrast(1);
+      border-radius: 50%;
+    }
+
+    .glowing::before {
+      content: "";
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      background: linear-gradient(
+        45deg,
+        #e8f74d,
+        #ff6600d9,
+        #00ff66,
+        #13ff13,
+        #ad27ad,
+        #bd2681,
+        #6512b9,
+        #ff3300de,
+        #5aabde
+      );
+      background-size: 400%;
+      width: calc(100% + 5px);
+      height: calc(100% + 5px);
+      z-index: -1;
+      animation: glower 20s linear infinite;
+      border-radius: 50%;
+    }
+
+        .glowing::before {
+      content: "";
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      background: linear-gradient(
+        45deg,
+        #e8f74d,
+        #ff6600d9,
+        #00ff66,
+        #13ff13,
+        #ad27ad,
+        #bd2681,
+        #6512b9,
+        #ff3300de,
+        #5aabde
+      );
+      background-size: 400%;
+      width: calc(100% + 5px);
+      height: calc(100% + 5px);
+      z-index: -1;
+      animation: glower 20s linear infinite;
+      border-radius: 50%;
+    }
+    @keyframes glower {
+      0% {
+        background-position: 0 0;
+      }
+
+      50% {
+        background-position: 400% 0;
+      }
+
+      100% {
+        background-position: 0 0;
+      }
+    }
+  }
+
+  .image-text {
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: 280px;
+    width: 240px;
+    margin-top: -300px;
+    position: absolute;
+    border-radius: 50%;
+    background: #18191f;
+    p {
+      width: 100%;
+      height: 100%;
+      font-size: 11px;
+      line-height: 10px;
+      letter-spacing: 0.3px;
+      border-radius: 50%;
+      text-align: justify;
+      background: url("../Assets/Images/Fabio.png");
+      -webkit-background-size: cover;
+      background-size: 250px 200px;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      background-size: 50vh;
+    }
+  }
+
+  .glow-text {
+    margin-top: 180px;
+    ul {
+      position: relative;
+      display: flex;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    label {
+      position: relative;
+    }
+
+    input[type="checkbox"] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 80px;
+      width: 80px;
+      z-index: 100;
+      @media screen and (max-width: 541px){
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    @media screen and (max-width: 541px){
+      position: relative;
+    }
+    .fName,
+    .lName {
+      display: flex;
+    }
+    .lName {
+      margin-left: 1.5rem;
+      @media screen and (max-width: 541px){
+        position: absolute;
+        top:110%;
+        left: 5%;
+      }
+    }
+
+    .letter-glue {
+      position: relative;
+      height: 80px;
+      width: 80px;
+      background: #18191f;
+      color: #555;
+      display: flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 46px;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 0 4px;
+      border-radius: 20px;
+      box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+      4px 4px 6px rgba(0, 0, 0, 0.2),
+      inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+      inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+      @media screen and (max-width: 768px){
+        width: 75px;
+        height: 75px;
+      }
+      @media screen and (max-width: 541px){
+        width: 65px;
+        height: 65px;
+      }
+      @media screen and (max-width: 340px){
+        width: 55px;
+        height: 55px;
+      }
+      @media screen and (max-width: 340px){
+        width: 48px;
+        height: 48px;
+      }
+      }
+
+    input[type="checkbox"]:checked ~ div {
+      box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+        inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+      color: yellow;
+      text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+      animation: glow 1.5s linear infinite;
+    }
+
+    @keyframes glow {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    }
+
+    .btn {
+      position: absolute;
+      list-style-type: none;
+      margin: 0;
+      margin-left: 20%;
+      margin-top: 20px;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      button {
+        --c: goldenrod;
+        color: var(--c);
+        font-size: 16px;
+        border: 0.2rem solid var(--c);
+        border-radius: 0.5rem;
+        width: 10rem;
+        height: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        background: none;
+        margin: 1rem;
+        span {
+          position: absolute;
+          width: 25%;
+          height: 100%;
+          background-color: var(--c);
+          transform: translateY(150%);
+          border-radius: 50%;
+          left: calc((var(--n) - 1) * 25%);
+          transition: 0.5s;
+          transition-delay: calc((var(--n) - 1) * 0.1s);
+          z-index: -1;
+        }
+      }
+      button:hover {
+        color: #18191f;
+      }
+
+      button:hover span {
+        transform: translateY(0) scale(2);
+      }
+
+      button:hover span:nth-child(1) {
+        --n: 1;
+      }
+
+      button:hover span:nth-child(2) {
+        --n: 2;
+      }
+
+      button:hover span:nth-child(3) {
+        --n: 3;
+      }
+
+      button:hover span:nth-child(4) {
+        --n: 4;
+      }
+      @media screen and (max-width: 1024px){
+        left: 22%;
+      }
+      @media screen and (max-width: 768px){
+        left: 20%;
+      }
+      @media screen and (max-width: 541px){
+        position: absolute;
+        top:200%;
+        left: 15%;
+      }
+      @media screen and (max-width: 340px){
+        left: 5%;
+      }
+    }
+  }
+}
