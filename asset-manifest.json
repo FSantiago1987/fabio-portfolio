@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fabio-portfolio/static/css/main.accf845d.chunk.css",
-    "main.js": "/fabio-portfolio/static/js/main.c4e3a961.chunk.js",
-    "main.js.map": "/fabio-portfolio/static/js/main.c4e3a961.chunk.js.map",
+    "main.css": "/fabio-portfolio/static/css/main.6ff7ce5b.chunk.css",
+    "main.js": "/fabio-portfolio/static/js/main.aa9efe99.chunk.js",
+    "main.js.map": "/fabio-portfolio/static/js/main.aa9efe99.chunk.js.map",
     "runtime-main.js": "/fabio-portfolio/static/js/runtime-main.f0af1bbe.js",
     "runtime-main.js.map": "/fabio-portfolio/static/js/runtime-main.f0af1bbe.js.map",
     "static/js/2.935dad8c.chunk.js": "/fabio-portfolio/static/js/2.935dad8c.chunk.js",
     "static/js/2.935dad8c.chunk.js.map": "/fabio-portfolio/static/js/2.935dad8c.chunk.js.map",
     "index.html": "/fabio-portfolio/index.html",
-    "static/css/main.accf845d.chunk.css.map": "/fabio-portfolio/static/css/main.accf845d.chunk.css.map",
+    "static/css/main.6ff7ce5b.chunk.css.map": "/fabio-portfolio/static/css/main.6ff7ce5b.chunk.css.map",
     "static/js/2.935dad8c.chunk.js.LICENSE.txt": "/fabio-portfolio/static/js/2.935dad8c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/fabio-portfolio/static/media/dots.9978678b.svg",
     "static/media/FabioResume.b4be5d3e.pdf": "/fabio-portfolio/static/media/FabioResume.b4be5d3e.pdf",
@@ -26,20 +26,20 @@
     "static/media/drive-buddy.0b0a93f4.jpg": "/fabio-portfolio/static/media/drive-buddy.0b0a93f4.jpg",
     "static/media/drum-javascript.dad52e3f.jpg": "/fabio-portfolio/static/media/drum-javascript.dad52e3f.jpg",
     "static/media/emailme.a60657eb.svg": "/fabio-portfolio/static/media/emailme.a60657eb.svg",
-    "static/media/github.a4ed658f.png": "/fabio-portfolio/static/media/github.a4ed658f.png",
     "static/media/incident.c182976a.jpg": "/fabio-portfolio/static/media/incident.c182976a.jpg",
     "static/media/linkedin.44b26a21.jpg": "/fabio-portfolio/static/media/linkedin.44b26a21.jpg",
     "static/media/location.5cd6776e.svg": "/fabio-portfolio/static/media/location.5cd6776e.svg",
     "static/media/mobile.1a21ccd4.png": "/fabio-portfolio/static/media/mobile.1a21ccd4.png",
     "static/media/phone.ef86e22a.svg": "/fabio-portfolio/static/media/phone.ef86e22a.svg",
     "static/media/portfolio-html.81e60f2d.jpg": "/fabio-portfolio/static/media/portfolio-html.81e60f2d.jpg",
+    "static/media/portfolio.cf1a2ad6.jpg": "/fabio-portfolio/static/media/portfolio.cf1a2ad6.jpg",
     "static/media/simon-game.bed6d3fc.jpg": "/fabio-portfolio/static/media/simon-game.bed6d3fc.jpg",
     "static/media/tech.4591769b.png": "/fabio-portfolio/static/media/tech.4591769b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f0af1bbe.js",
     "static/js/2.935dad8c.chunk.js",
-    "static/css/main.accf845d.chunk.css",
-    "static/js/main.c4e3a961.chunk.js"
+    "static/css/main.6ff7ce5b.chunk.css",
+    "static/js/main.aa9efe99.chunk.js"
   ]
 }
