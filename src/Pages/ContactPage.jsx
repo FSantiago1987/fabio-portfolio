@@ -4,10 +4,40 @@ import Title from "../Components/Title";
 import phone from "../Assets/Images/phone.svg";
 import email from "../Assets/Images/emailme.svg";
 import location from "../Assets/Images/location.svg";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+    x: "-100vw",
+  },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      type: "spring",
+      //delay: 0.5,
+      mass: 0.9,
+      damping: 20,
+      when: "beforeChildren",
+      staggerChildren: 0.4,
+    },
+  },
+  exit: {
+    x: "100vw",
+    transition: { ease: "easeInOut" },
+  },
+};
 
 function ContactPage() {
   return (
-    <div className="ContactPage">
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      className="ContactPage"
+    >
       <div className="contact-title">
         <Title title={"Contact Me"} span={"Contact Me"} />
       </div>
@@ -30,10 +60,14 @@ function ContactPage() {
             text={"rawpower_br@hotmail.com"}
             title={"Email"}
           />
-          <ContactItem icon={location} text={"Toronto, ON - Canada"} title={"Location"} />
+          <ContactItem
+            icon={location}
+            text={"Toronto, ON - Canada"}
+            title={"Location"}
+          />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

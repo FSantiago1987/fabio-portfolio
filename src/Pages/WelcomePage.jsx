@@ -26,7 +26,6 @@ const imageLVariants = {
     transition:{
       ease: "easeInOut",
       duration: 1.5,
-      delay: 2
     }
   }
 }
@@ -99,7 +98,7 @@ function WelcomePage() {
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-          >
+          > 
             <div className="box glowing">
                 <img src={MyImage} alt="" className="picture" />
             </div>

@@ -7,10 +7,34 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Typed from "react-typed";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 4,
+      ease: "easeInOut"   
+    },
+  },
+  exit: {
+    x: "-100vw",
+    transition: { ease: "easeInOut" },
+  },
+};
 
 function HomePage() {
   return (
-    <div className="HomePage">
+    <motion.div
+      className="HomePage"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <header className="hero">
         <h1 className="hero-text">
           Hi, I am
@@ -46,7 +70,7 @@ function HomePage() {
           </a>
         </div>
       </header>
-    </div>
+    </motion.div>
   );
 }
 
