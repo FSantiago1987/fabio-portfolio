@@ -5,7 +5,6 @@ import MenuItems from '../Components/MenuItems';
 import portfolios from '../Components/allPortfolios';
 
 function PortfolioPage() {
-    const [categories, setCategories] = useState(null);
     const [menuItem, setMenuItem] = useState(portfolios);
     const categoriesList = ['All', ...new Set(portfolios.map(item => item.category))];
 

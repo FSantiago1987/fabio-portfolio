@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import AboutImage from "../Assets/Images/Picture1.jpg";
 import FabioResume from "../Assets/Images/FabioResume.pdf";

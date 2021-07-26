@@ -7,6 +7,9 @@
         width: 100%;
         margin: 1rem;
     }
+    @media screen and (min-width: 1700px){
+        width: 22rem;
+    }
     .service{
         width: 95%;
         height: 38vh;

@@ -5,9 +5,9 @@ import SimonGame from '../Assets/Images/portImages/simon-game.jpg';
 import DriveBuddy from '../Assets/Images/portImages/drive-buddy.jpg';
 import IncidentManager from '../Assets/Images/portImages/incident.jpg';
 import LinkedIn from '../Assets/Images/portImages/linkedin.jpg';
+import Portfolio from '../Assets/Images/portImages/portfolio.jpg';
 import BetaFolks from '../Assets/Images/portImages/beta-folks.jpg';
-import GitHubIcon from '../Assets/Images/portImages/github.png';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
     faInternetExplorer,
     faGithub,
@@ -86,6 +86,16 @@ const portfolios = [
     },
     {
         id: 8,
+        category: 'React JS',
+        link1: 'https://github.com/FSantiago1987/portfolio',
+        link2: 'https://fsantiago1987.github.io/portfolio/',
+        icon1: faGithub,
+        icon2: faInternetExplorer,
+        image: Portfolio,
+        title: 'Portfolio - ReactJS'
+    },
+    {
+        id: 9,
         category: 'React JS',
         link1: 'https://github.com/FSantiago1987/BetaFolksProject',
         link2: 'https://fsantiago1987.github.io/BetaFolksProject/',

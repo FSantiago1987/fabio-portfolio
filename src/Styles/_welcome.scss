@@ -248,7 +248,7 @@
         font-family: sans-serif;
         letter-spacing: 0.1em;
         text-align: center;
-        line-height: 3em;
+        line-height: 2em;
         position: relative;
         overflow: hidden;
         z-index: 1;
@@ -291,6 +291,9 @@
       button:hover span:nth-child(4) {
         --n: 4;
       }
+      @media screen and (min-width: 1700px){
+        left: 24%;
+      }
       @media screen and (max-width: 1024px){
         left: 22%;
       }
@@ -301,6 +304,9 @@
         position: absolute;
         top:200%;
         left: 15%;
+      }
+      @media screen and (max-width: 420px){
+        left: 8%;
       }
       @media screen and (max-width: 340px){
         left: 5%;

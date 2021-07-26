@@ -6,7 +6,6 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
 function HomePage() {
