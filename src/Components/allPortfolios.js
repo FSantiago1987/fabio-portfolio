@@ -7,6 +7,8 @@ import IncidentManager from '../Assets/Images/portImages/incident.jpg';
 import LinkedIn from '../Assets/Images/portImages/linkedin.jpg';
 import Portfolio from '../Assets/Images/portImages/portfolio.jpg';
 import BetaFolks from '../Assets/Images/portImages/beta-folks.jpg';
+import CasinoToronto from '../Assets/Images/portImages/casino-toronto.png';
+import AirBnbClone from '../Assets/Images/portImages/airbnb_clone.png';
 
 import {
     faInternetExplorer,
@@ -103,6 +105,26 @@ const portfolios = [
         icon2: faInternetExplorer,
         image: BetaFolks,
         title: 'Beta Folks - React JS, Styled Components & Tailwind'
+    },
+    {
+        id: 10,
+        category: 'React JS',
+        link1: 'https://github.com/FSantiago1987/casino-toronto',
+        link2: 'https://fsantiago1987.github.io/casino-toronto/',
+        icon1: faGithub,
+        icon2: faInternetExplorer,
+        image: CasinoToronto,
+        title: 'Mintbean Hackathon - Casino Toronto - React JS'
+    },
+    {
+        id: 11,
+        category: 'React JS',
+        link1: 'https://github.com/FSantiago1987/airbnb-clone',
+        link2: 'https://airbnb-clone-fsantiago1987.vercel.app/',
+        icon1: faGithub,
+        icon2: faInternetExplorer,
+        image: AirBnbClone,
+        title: 'AirBnb Clone - React JS & Tailwind'
     }
 ]
 
