@@ -9,6 +9,7 @@ import Portfolio from '../Assets/Images/portImages/portfolio.jpg';
 import BetaFolks from '../Assets/Images/portImages/beta-folks.jpg';
 import CasinoToronto from '../Assets/Images/portImages/casino-toronto.png';
 import AirBnbClone from '../Assets/Images/portImages/airbnb_clone.png';
+import AmazonClone from '../Assets/Images/portImages/amazon-clone.png';
 
 import {
     faInternetExplorer,
@@ -124,7 +125,17 @@ const portfolios = [
         icon1: faGithub,
         icon2: faInternetExplorer,
         image: AirBnbClone,
-        title: 'AirBnb Clone - React JS & Tailwind'
+        title: 'AirBnb Clone - React JS & Tailwind CSS'
+    },
+    {
+        id: 12,
+        category: 'React JS',
+        link1: 'https://github.com/FSantiago1987/amazon-clone',
+        link2: 'https://amazon-clone-9wu1nskgq-fsantiago1987.vercel.app/',
+        icon1: faGithub,
+        icon2: faInternetExplorer,
+        image: AmazonClone,
+        title: 'Amazon Clone - React JS, Tailwind CSS, Next.js & Redux'
     }
 ]
 
