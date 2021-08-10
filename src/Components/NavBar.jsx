@@ -42,8 +42,8 @@ function NavBar() {
           </li>
         </ul>
         <footer className="footer">
-          Copyright&copy; {new Date().getFullYear()} Fabio Luiz <br/> All Rights
-          Reserved
+          Copyright&copy; {new Date().getFullYear()} Fabio Luiz <br /> All
+          Rights Reserved
         </footer>
       </nav>
     </div>
