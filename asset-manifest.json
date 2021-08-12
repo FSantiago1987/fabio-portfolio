@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fabio-portfolio/static/css/main.6ff7ce5b.chunk.css",
-    "main.js": "/fabio-portfolio/static/js/main.541ce40d.chunk.js",
-    "main.js.map": "/fabio-portfolio/static/js/main.541ce40d.chunk.js.map",
+    "main.js": "/fabio-portfolio/static/js/main.39d9310c.chunk.js",
+    "main.js.map": "/fabio-portfolio/static/js/main.39d9310c.chunk.js.map",
     "runtime-main.js": "/fabio-portfolio/static/js/runtime-main.f0af1bbe.js",
     "runtime-main.js.map": "/fabio-portfolio/static/js/runtime-main.f0af1bbe.js.map",
     "static/js/2.68e1f2b7.chunk.js": "/fabio-portfolio/static/js/2.68e1f2b7.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Me.15532332.jpg": "/fabio-portfolio/static/media/Me.15532332.jpg",
     "static/media/Picture1.0342b4a8.jpg": "/fabio-portfolio/static/media/Picture1.0342b4a8.jpg",
     "static/media/airbnb_clone.cac557cc.png": "/fabio-portfolio/static/media/airbnb_clone.cac557cc.png",
+    "static/media/amazon-clone.9a95c5ea.png": "/fabio-portfolio/static/media/amazon-clone.9a95c5ea.png",
     "static/media/beta-folks.c4a78492.jpg": "/fabio-portfolio/static/media/beta-folks.c4a78492.jpg",
     "static/media/blog1.7ecbb78c.svg": "/fabio-portfolio/static/media/blog1.7ecbb78c.svg",
     "static/media/blog2.09939351.svg": "/fabio-portfolio/static/media/blog2.09939351.svg",
@@ -42,6 +43,6 @@
     "static/js/runtime-main.f0af1bbe.js",
     "static/js/2.68e1f2b7.chunk.js",
     "static/css/main.6ff7ce5b.chunk.css",
-    "static/js/main.541ce40d.chunk.js"
+    "static/js/main.39d9310c.chunk.js"
   ]
 }
