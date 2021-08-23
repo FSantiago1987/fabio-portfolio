@@ -10,6 +10,7 @@ import BetaFolks from '../Assets/Images/portImages/beta-folks.jpg';
 import CasinoToronto from '../Assets/Images/portImages/casino-toronto.png';
 import AirBnbClone from '../Assets/Images/portImages/airbnb_clone.png';
 import AmazonClone from '../Assets/Images/portImages/amazon-clone.png';
+import Memories from '../Assets/Images/portImages/Memories.jpg';
 
 import {
     faInternetExplorer,
@@ -136,6 +137,16 @@ const portfolios = [
         icon2: faInternetExplorer,
         image: AmazonClone,
         title: 'Amazon Clone - React JS, Tailwind CSS, Next.js & Redux'
+    },
+    {
+        id: 13,
+        category: 'MERN',
+        link1: 'https://github.com/FSantiago1987/Memories',
+        link2: 'https://dream-memories.netlify.app/',
+        icon1: faGithub,
+        icon2: faInternetExplorer,
+        image: Memories,
+        title: 'MERN - MongoDB, Express, ReactJS, NodeJS'
     }
 ]
 
